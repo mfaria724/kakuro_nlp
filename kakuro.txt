@@ -1,6 +1,0 @@
-[
-  clue(1, 0, 17, [blank(1,1), blank(1,2)]),
-  clue(2, 0, 16, [blank(2,1), blank(2,2)]),
-  clue(0, 1, 16, [blank(1,1), blank(2,1)]),
-  clue(0, 2, 17, [blank(1,2), blank(2,2)])
-]. 
