@@ -220,27 +220,6 @@ valid(Kakuro, Solution) :-
   isSolution(Kakuro, Solution), !,
   not(otherSolution(Kakuro, Solution, _)).
 
-valid(Kakuro) :-
-  kakuro(Kakuro), nl,
-  ( 
-    % Si hay solucion
-    (isSolution(Kakuro, Solution), !) ->
-    % Ejecutamos esto
-    (
-      print('Se encontro la siguiente solucion: '), nl,
-      write(Solution), nl, nl,
-      (
-        not(otherSolution(Kakuro, Solution, _)) ->
-        ( print('Y es la unica solucion posible!'), nl, !) ;
-        (
-          print('Pero se consiguo otra solucion: '), nl
-        )
-      )
-    );
-    % Si no, error.
-    print('No existe una solucion valida.\n'), !
-  ).
-
 
 % ================== LECTURA DE UN KAKURO ================== %
 readOneTerm(Term) :-
