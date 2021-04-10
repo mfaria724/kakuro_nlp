@@ -1,0 +1,6 @@
+[
+  fill(blank(1,1), 9),
+  fill(blank(2,1), 7),
+  fill(blank(1,2), 8),
+  fill(blank(2,2), 9)
+].
