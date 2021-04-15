@@ -1,9 +1,0 @@
-[
-  fill(blank(1,1), 9),
-  fill(blank(2,1), 7),
-  fill(blank(1,2), 8),
-  fill(blank(2,2), 9),
-  fill(blank(1,3), 6),
-  fill(blank(2,3), 8),
-  fill(blank(3,3), 5)
-].
